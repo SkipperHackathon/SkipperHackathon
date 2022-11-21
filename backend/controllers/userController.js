@@ -3,6 +3,7 @@ const User = require('../models/user');
 // GET::HOME
 module.exports.home_get = (req, res) => {
   res.status(200).send('make transactions easily');
+  console.log('i am here')
 }
 
 // POST::SIGNUP
