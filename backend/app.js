@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 const cors = require("cors")
 const tokenAuth = require("./middleware/tokenAuth")
 
-
+console.log('i am here to stay')
 app.use(cors())
 app.use(express.json());
 // configs
